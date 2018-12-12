@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tesla App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+   <section class="header">
+      <h2>Tesla app</h2>
+      <p>Sube la imagen de un coche tesla:</p>
+      <input type="file" id="image" accept="image/*">
+    </section>
+
+    <section class="content">
+      <div class="image_content">
+        <img src="" alt="" id="imageContainer">
+      </div>
+      <p id="imageClass">
+      </p>
+    </section>
+  </body>
+</html>
