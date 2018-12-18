@@ -57,3 +57,6 @@ def predict():
 if __name__ == "__main__":
     load_model()
     app.run(debug = False, threaded = False)
+
+if __name__ == "app":
+    load_model()
